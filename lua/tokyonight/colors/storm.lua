@@ -1,39 +1,39 @@
 ---@class Palette
-local ret = {
-  bg = "#24283b",
-  bg_dark = "#1f2335",
-  bg_dark1 = "#1b1e2d",
-  bg_highlight = "#292e42",
-  blue = "#7aa2f7",
-  blue0 = "#3d59a1",
-  blue1 = "#2ac3de",
-  blue2 = "#0db9d7",
-  blue5 = "#89ddff",
-  blue6 = "#b4f9f8",
-  blue7 = "#394b70",
-  comment = "#565f89",
-  cyan = "#7dcfff",
-  dark3 = "#545c7e",
-  dark5 = "#737aa2",
-  fg = "#c0caf5",
-  fg_dark = "#a9b1d6",
-  fg_gutter = "#3b4261",
-  green = "#9ece6a",
-  green1 = "#73daca",
-  green2 = "#41a6b5",
-  magenta = "#bb9af7",
-  magenta2 = "#ff007c",
-  orange = "#ff9e64",
-  purple = "#9d7cd8",
-  red = "#f7768e",
-  red1 = "#db4b4b",
-  teal = "#1abc9c",
-  terminal_black = "#414868",
-  yellow = "#e0af68",
+
+return {
+  bg = "#121212", -- Very dark gray
+  bg_dark = "#1a1a1a", -- Soft charcoal
+  bg_dark1 = "#1a1a1a", -- Same as bg_dark for softness
+  bg_highlight = "#333333", -- Dark gray highlight
+  blue = "#cccccc", -- Light gray (used as soft blue analog)
+  blue0 = "#b3b3b3", -- Pale gray
+  blue1 = "#999999", -- Very light gray
+  blue2 = "#7f7f7f", -- Light medium gray
+  blue5 = "#b3b3b3", -- Reusing for consistency
+  blue6 = "#d9d9d9", -- Very light gray
+  blue7 = "#4d4d4d", -- Medium dark gray
+  comment = "#666666", -- Soft gray for comments
+  cyan = "#e6e6e6", -- Soft off-white (used for cyan)
+  dark3 = "#4d4d4d", -- Medium dark gray
+  dark5 = "#666666", -- Soft gray
+  fg = "#f2f2f2", -- Almost white (foreground)
+  fg_dark = "#cccccc", -- Light gray
+  fg_gutter = "#333333", -- Dark gray (gutter lines)
+  green = "#d9d9d9", -- Very light gray (used for green)
+  green1 = "#b3b3b3", -- Pale gray
+  green2 = "#999999", -- Very light gray
+  magenta = "#e6e6e6", -- Soft off-white
+  magenta2 = "#f0f0f0", -- Very soft white
+  orange = "#b3b3b3", -- Pale gray (used for orange)
+  purple = "#f5f5f5", -- Very pale gray
+  red = "#999999", -- Very light gray (used for red)
+  red1 = "#7f7f7f", -- Light medium gray
+  teal = "#b3b3b3", -- Pale gray
+  terminal_black = "#333333", -- Dark gray
+  yellow = "#e6e6e6", -- Soft off-white
   git = {
-    add = "#449dab",
-    change = "#6183bb",
-    delete = "#914c54",
+    add = "#b3b3b3", -- Pale gray
+    change = "#999999", -- Very light gray
+    delete = "#7f7f7f", -- Light medium gray
   },
 }
-return ret
